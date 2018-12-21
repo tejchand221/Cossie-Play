@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tejchand Palacharla</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Cossie Play</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+<li><a href="announcements.html">Announcements</a></li>
+      <li><a href="party.html">Party</a></li>
+       <li><a href="dresses.html">Dresses</a></li>
+       <li><a href="login.html">Login</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+<article>
+<h2>Announcement</h2>
+<li>We have some cool things happening that we want people to know about: this month you can purchase 3 drinks for the price of 2 at the bar.</li>
+<li>First-time party-goers get a 50% discount on entry</li>
+<li>If you get a costume custom made, your next party entry is free if you wear that costume.</li>
+<li>Wear your costume in to KFC on Stanton street and you can get a free drink with a 21-piece bucket. Tell them you�ve been to CossiePlay!</li>
+</article>
+  </section>
+
+
+<footer>
+  <p>2018 � Cossie Play| All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
